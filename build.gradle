@@ -4,12 +4,12 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
 
-    dataBinding {
+    dataBinding{
         enabled true
     }
 
     defaultConfig {
-        applicationId "com.cdemo.databindingsample"
+        applicationId "com.cdemo.databinding"
         minSdkVersion 14
         targetSdkVersion 25
         versionCode 1
@@ -24,7 +24,6 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-
 }
 
 dependencies {
